@@ -1,0 +1,66 @@
+
+.article
+{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.article-title {    
+    font-family:$font;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-top: 50px; 
+                            a{
+                                color:#222;
+                            
+                                &:hover{
+                                    text-decoration : none;
+                                    color: $primary-color;
+                                }
+                            }   
+}
+
+
+.article-meta{
+    margin-top: 20px;
+    margin-bottom: 10px;
+                    span{
+                        margin:0 10px;
+                        font-family: $font;
+                        font-size:14px;
+                        color:#333;
+                    
+                    }
+}
+
+.img-author{
+    width:42px;
+}
+.btn-article
+{
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    padding: 15px 22px;
+    font-family: $font;
+    font-weight: bold;
+    text-transform: capitalize;  
+                                    &:hover
+                                {
+                                    background-color: $primary-color;
+                                    color:white;
+                                } 
+                                &:focus
+                                    {
+                                        outline-color: none;
+                                    }   
+}
+
+
+.article-body{
+    margin:30px 0;
+}
+
+ .article hr {
+    margin: 80px 0;
+}

@@ -1,0 +1,44 @@
+@import 'bootstrap-3.4.1-dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+
+$primary-color:#bfba55;
+$font:'Merriweather', serif;  
+
+body {
+    font-family: $font ;
+}
+p{
+    color:#777;
+    font-family: $font;
+    font-size:15px;
+    font-weight: 300px;
+    line-height:28px;
+    letter-spacing: 0.3px;
+}
+
+        @import'SCSS/navigation';
+        @import 'SCSS/hero';
+        @import 'SCSS/article';
+        @import 'SCSS/footer';
+        @import 'SCSS/body';
+        @import 'SCSS/general';
+
+        .footer
+        {
+            color:white;
+            background: black;
+            padding:80px 0;
+            font-family: $font;
+        }
+        .footer-about h2, .footer-contact h2{
+            font-weight: bold;
+        }
+        .copyright{
+            margin-top: 25px;
+        }
+        
+
+
+
+

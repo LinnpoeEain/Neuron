@@ -1,0 +1,50 @@
+
+.banner-about
+{
+   
+    background: url("images/about-bg.jpg");
+   
+}
+.banner-gallery{
+    background-attachment: fixed;
+    background: url("images/gallery-bg.jpg");
+}
+.banner-contact{
+    background-attachment: fixed;
+    background: url("images/contact-bg.jpg");
+}
+
+.banner {   
+    padding: 200px 200px;
+    background-position: top center;
+    background-attachment: fixed;
+    position:relative;
+   
+    background-size: cover;
+                    h1{
+                        color: white;
+                        font-weight: bold;
+                        font-size: 62px;
+                        font-family: $font;
+                        text-align: center;
+                    }
+}
+
+.overlay{
+    background: rgba(0,0,0,0.7);
+    position:absolute;
+    height:100px;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    height: 100%;  
+
+}
+.banner-content{
+    position: relative;
+}
+
+.content{
+    margin: 70px 0;
+}
